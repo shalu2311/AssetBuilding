@@ -65,6 +65,7 @@
         <module>.decisionservice</module>
         <module>Counter</module>
         <module>RiskCategorization</module>
+        <module>RiskScore</module>
     </modules>
 
     <build>
