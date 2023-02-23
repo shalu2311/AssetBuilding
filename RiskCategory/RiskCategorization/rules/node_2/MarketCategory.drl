@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>MarketCategory</name>
+  <uuid>18452590-bc80-4992-9d78-8b3c9c3ba95f</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the MC of CounterUpdate is more than the FC of CounterUpdate 
+then     
+    set decision to "Market Risk" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

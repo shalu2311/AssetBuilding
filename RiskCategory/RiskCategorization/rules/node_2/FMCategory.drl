@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>FMCategory</name>
+  <uuid>d12c01f7-6ab1-4dad-b8fa-5cef48ab0657</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the FC of CounterUpdate equals the MC of CounterUpdate and the FC of CounterUpdate > 0 
+then
+	set decision to "Operational Risk and Market Risk" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

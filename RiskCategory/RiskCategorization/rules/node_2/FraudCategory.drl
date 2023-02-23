@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>FraudCategory</name>
+  <uuid>59553eb4-83e9-475a-b6b5-9291fedd61f4</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	the FC of CounterUpdate is more than the MC of CounterUpdate 
+then
+	set decision to "Operational Risk" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

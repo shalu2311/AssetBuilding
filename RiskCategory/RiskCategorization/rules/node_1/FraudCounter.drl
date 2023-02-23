@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>FraudCounter</name>
+  <uuid>66f5bd64-62cf-4372-8cc4-b02da7e7ab50</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[definitions
+  set Fraudulent to {"Fraud","fraud","deceit","masked men","hostage","bank robbery","fraud case","robbed","Robbery","uprooted ATM machines"};
+  -- loop on list 1
+set item1 to a string in Fraudulent;
+-- check item in list 2
+if there is at least one string in Input
+	where this string is item1 ,
+then
+   set the FC of decision to the FC of decision + 1;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

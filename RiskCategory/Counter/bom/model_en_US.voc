@@ -1,0 +1,12 @@
+
+# cp4admin.findrisk.riskcategory.counter.Counter
+cp4admin.findrisk.riskcategory.counter.Counter#concept.label = counter
+cp4admin.findrisk.riskcategory.counter.Counter.Counter(double,double)#phrase.navigation = a new {counter} where {0, FC} {1, MC}
+cp4admin.findrisk.riskcategory.counter.Counter.FC#phrase.action = set the FC of {this} to {FC}
+cp4admin.findrisk.riskcategory.counter.Counter.FC#phrase.addition_setter = add {FC} to the FC of {this}
+cp4admin.findrisk.riskcategory.counter.Counter.FC#phrase.navigation = {FC} of {this}
+cp4admin.findrisk.riskcategory.counter.Counter.FC#phrase.subtraction_setter = subtract {FC} from the FC of {this}
+cp4admin.findrisk.riskcategory.counter.Counter.MC#phrase.action = set the MC of {this} to {MC}
+cp4admin.findrisk.riskcategory.counter.Counter.MC#phrase.addition_setter = add {MC} to the MC of {this}
+cp4admin.findrisk.riskcategory.counter.Counter.MC#phrase.navigation = {MC} of {this}
+cp4admin.findrisk.riskcategory.counter.Counter.MC#phrase.subtraction_setter = subtract {MC} from the MC of {this}
